@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  changer:
+    build: .
+    image: anroots/fleep-name-changer
+    environment:
+      FLEEP_EMAIL:
+      FLEEP_PASSWORD:
+      SLEEP_DURATION: 3600
+      NAME_PREFIX: 
+      NAME_SUFFIX: 
