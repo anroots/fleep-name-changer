@@ -105,6 +105,20 @@ def get_middle_name():
       'Mad',
       'Mad',
       'Coder',
+      '/dev/sad',
+      'Sneaky',
+      'Sarcastic',
+      'Boolean',
+      'Rambling',
+      'Attractive',
+      'Quicksilver',
+      'Hacker',
+      'Cracker',
+      'Hodor',
+      'Father of Programs',
+      'HTTPS',
+      'Secretive',
+      'Tremors',
       'Java'
     ]
     return random.choice(clever_names)
